@@ -66,6 +66,7 @@ h2 span{
     height: auto;
     display: flex;
     box-sizing: border-box;
+    aspect-ratio: 1/1;
 }
 
 .imgbx img {
