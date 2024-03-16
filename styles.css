@@ -41,7 +41,8 @@ body{
     position: relative; 
     width: 100%;
     height: 400px;
-    background: linear-gradient(45deg,#1B4242,#5C8374);
+    background: linear-gradient(45deg,#5C8374,#1B4242);
+
     padding: 50px;
     border-radius: 15px;
     box-shadow: 0 0 25px #092635;   
@@ -270,7 +271,7 @@ h4{
     text-transform: uppercase;
     transition: 0.5s;
     transition-property: box-shadow;
-    background: linear-gradient(45deg,#1B4242,#5C8374);
+    background: linear-gradient(45deg,#5C8374,#1B4242);
     box-shadow: 0 0 25px #1B4242;
 }
 
@@ -302,7 +303,7 @@ h4{
 }
 
 .hobbies ul li:hover{
-    background: linear-gradient(45deg,#1B4242,#5C8374);
+    background: linear-gradient(45deg,#5C8374,#1B4242);
     color: #fff;
     transition: 0.25s;
     border-radius: 8px;
