@@ -15,10 +15,22 @@
 <body>
     <div class="container">
         <div class="top">
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
             <div id="particles-js"></div>
             <script src="particles.js"></script>
             <script src="app.js"></script>
-            <h2>Abdallah Hamada<br><span>Full-Stack Developer</span></h2>
+            <h2>Abdallah Hamada<br><span id="element">Full-Stack Developer</span></h2>
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['<i>Full-Stack Developer</i>.',
+                        '<i>Blue Hat Hacker</i>.',
+                        '<i>Penetration Tester</i>.'
+                    ],
+                    typeSpeed: 50,
+                    backspeed: 50,
+                    loop: true
+                });
+            </script>
             <div class="group">
                 <div class="leftside">
                     <div class="imgbx">
