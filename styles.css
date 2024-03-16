@@ -19,7 +19,7 @@ body{
     height: 250px;
     background: rgba(0,0,0,0.5);
     border-radius: 50%;
-    top: -250px;
+    /* top: -250px; */
 }
 
 
@@ -32,6 +32,12 @@ body{
     margin: 50px;
     box-shadow: 0  35px 55px rgba(0,0,0,0.1);
 }
+
+.rightside .text{
+    position: relative; 
+    top: -450px;
+}
+
 .top{
     position: relative; 
     width: 100%;
@@ -40,11 +46,13 @@ body{
     padding: 50px;
 }
 h2{
+    position: relative;
     font-size: 3em;
     color: #fff;
     text-transform: uppercase;
     line-height: 0.7em;
     letter-spacing: 0.1em;
+    top: -460px;
 }
 
 h2 span{
@@ -58,10 +66,12 @@ h2 span{
 }
 
 .imgbx img {
+    position: relative;
     display: block;
     margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
+    top: -460px;
 }
 
 .group{
@@ -165,17 +175,17 @@ h4{
     transform: translate(50%);
 }
 
-    /* .skill-per::after{
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        background: linear-gradient(45deg,#231fbf,#69175f);
-        top: -14px;
-        right: 0;
-        transform: translate(50%) rotate(45deg);
-        border-radius: 2px;
-    } */
+        /* .skill-per::after{
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: linear-gradient(45deg,#231fbf,#69175f);
+            top: -14px;
+            right: 0;
+            transform: translate(50%) rotate(45deg);
+            border-radius: 2px;
+        } */
 
 /* makes the bar start from 0 then goes to the desired percentage*/
 @keyframes fillbars{
@@ -241,8 +251,25 @@ h4{
 
 
 .hobbies{
-    padding: 0 50px 50px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: linear-gradient(45deg,#231fbf,#69175f);
+    box-shadow: 0 0 25px #231fbf;
 }
+
+.hobbies h4{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+
 .hobbies ul{
     position: relative;
     top: -20px;
@@ -261,14 +288,27 @@ h4{
     gap: 5px;
     background: #d3cfcf;
     text-align: center;
-    cursor: pointer;
+    border-radius: 25px;
 }
 
 .hobbies ul li:hover{
-    background-color: #231fbf;
+    background-color: #d3cfcf;
     color: #fff;
+    transition: 0.25s;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #231fbf,
+                0 0 25px #231fbf
+                0 0 50px #231fbf,
+                0 0 100px #231fbf;
 }
 
 .hobbies ul li i{
     font-size: 2em;
+}
+
+
+#particles-js{
+    position: relative;
+    right: 50px;
+    top: -30px;
 }
