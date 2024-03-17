@@ -82,7 +82,7 @@ h2 span{
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: 10px solid rgb(0, 0, 0);
+    border: 10px solid #092635;
 }
 
 .group{
@@ -372,5 +372,12 @@ h4{
 
 .toggle__input:checked ~ .toggle__fill::after {
     transform: translateX(var(--height));
+}
+
+
+
+/* for mobile devices */
+@media screen and (min-width:780px){
+
 }
 
